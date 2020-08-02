@@ -950,7 +950,7 @@ font-size: 14px;
       .columns__body-why {
       flex: 0 0 0;
       align-items: start;
-   }
+	}
 }
 .container-hello {
    padding: 0 10px;
