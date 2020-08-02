@@ -169,7 +169,7 @@ body {
    text-align: left;
 }
 .a2{
-   text-align: right;
+  
 }
 @media(max-width: 767px){
 	.a2{
@@ -453,7 +453,6 @@ body {
    -webkit-box-pack: end;
    -ms-flex-pack: end;
    justify-content: flex-end;
-   text-align: right;
 }
 .menu__left {
    display: flex;
