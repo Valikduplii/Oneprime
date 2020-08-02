@@ -150,7 +150,7 @@ body {
 }
 .languages__body{
    display: flex;
-   text-align: left;
+ 
 }
 
 .header__burger {
@@ -550,10 +550,7 @@ Part 2
    .slider__body {
       display: none;
    }
-   .buttom__text{
-	font-size: 14px;
-   }
-}
+
 
 .about {
    max-width: 50%;
@@ -588,6 +585,9 @@ Part 2
    text-align: center;
    margin: 0px 10px 0px 0px;
 }
+.buttom__text{
+font-size: 14px;
+   }
 .white {
    color: #000;
    background-color: #fff;
