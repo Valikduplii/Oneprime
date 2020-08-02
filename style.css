@@ -167,9 +167,14 @@ body {
 }
 .a1{
    text-align: left;
+	   display: flex;
+	flex: 1 1 auto;
+	justify-content: space-between;
 }
 .a2{
-  
+     display: flex;
+	flex: 1 1 auto;
+	justify-content: space-between;
 }
 @media(max-width: 767px){
 	.a2{
@@ -299,7 +304,7 @@ body {
       top: 45%;
    }
    .menu__item{
-      margin: 0px 0px 20px 0px;
+      margin: 0px 0px 10px 0px;
    }
 
    .nav__item{
@@ -435,13 +440,17 @@ body {
 }
 .header__top_1{
    display: block;
+	    display: flex;
+    flex: 1 1 auto;
 }
 .header__top_2{
    flex: 0 1 33.333%
+	   
 }
 .header__top_3{
    display: flex;
-   
+       display: flex;
+    flex: 1 1 auto;
 }
 .a2{
    margin: 0;
@@ -450,6 +459,8 @@ body {
    display: -ms-flexbox;
    display: -webkit-flex;
    display: flex;
+	flex: 1 1 auto;
+	justify-content: space-between;
    -webkit-box-pack: end;
    -ms-flex-pack: end;
    justify-content: flex-end;
