@@ -594,7 +594,8 @@ Part 2
    color: #fff;
    text-decoration: none;
    flex-wrap: nowrap;
-   padding: 0px 0px 0px 20px;
+   padding: 0px 0px 0px 10px;
+	font-size: 17px;
 }
 @media(max-width: 767px){
 	.view__menu {
@@ -717,7 +718,7 @@ p {
    }
 }
 .buttom__text{
-font-size: 15px;
+font-size: 14px;
 }
 /* Контейнер картинки */
 .cards__image {
