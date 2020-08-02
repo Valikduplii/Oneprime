@@ -947,7 +947,10 @@ font-size: 14px;
       flex-direction: column;
       padding: 50px 20px 0px 20px;
    }
-   
+      .columns__body-why {
+      flex: 0 0 0;
+      align-items: start;
+   }
 }
 .container-hello {
    padding: 0 10px;
