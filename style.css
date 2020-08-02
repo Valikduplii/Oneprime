@@ -971,13 +971,13 @@ p {
 
 }
 .hello-body-image-1{
-   background: url("../img/contacts/01.svg") left no-repeat;
+   background: url("../contacts/01.svg") left no-repeat;
 }
 .hello-body-image-2{
-   background: url("../img/contacts/02.svg") left no-repeat;
+   background: url("../contacts/02.svg") left no-repeat;
 }
 .hello-body-image-3{
-   background: url("../img/contacts/03.svg") left no-repeat;
+   background: url("../contacts/03.svg") left no-repeat;
 }
 .hello__text {  
    font-size: 15px;
