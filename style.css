@@ -547,6 +547,7 @@ Part 2
    height: 450px;
    object-fit: cover;
 }
+
 @media(max-width: 767px){
    .slider__body {
       display: none;
