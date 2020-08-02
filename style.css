@@ -160,7 +160,7 @@ body {
 .header-top{
    display: flex;
    flex: 1 1 100%;
-}
+   padding: 0x 10px;}
 .nav__item{
    font-family: "AkzidenzGroteskBQCondensedBold";
    font-size: 15px;
