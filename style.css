@@ -69,7 +69,7 @@ button::-moz-focus-inner {
 }
 
 a:hover {
-   text-decoration: none;
+   text-decoration: none ;
 }
 ul li {
    list-style: none;
