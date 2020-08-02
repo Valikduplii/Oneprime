@@ -172,6 +172,9 @@ body {
    text-align: right;
 }
 @media(max-width: 767px){
+	.a2{
+   text-align: left;
+}
    .continer{
       width: 100%;
       height: 50px;
