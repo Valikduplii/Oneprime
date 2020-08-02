@@ -714,6 +714,9 @@ p {
       flex: 1 1 50%;
    }
 }
+.buttom__text{
+font-size: 15px;
+}
 /* Контейнер картинки */
 .cards__image {
    display: block;
