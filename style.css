@@ -400,8 +400,6 @@ body {
 }
 .languages__body {
    font-family: "Bebas";
-   display: flex;
-   justify-content: space-around;
    margin: 0px 0px 30px 0px;
    display: flex;
    z-index: 3;
@@ -552,7 +550,9 @@ Part 2
    .slider__body {
       display: none;
    }
-   
+   .buttom__text{
+	font-size: 14px;
+   }
 }
 
 .about {
