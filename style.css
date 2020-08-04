@@ -581,6 +581,10 @@ Part 2
    flex-wrap: nowrap;
    padding: 0px 0px 0px 20px;
 }
+@media(max-width: 767px) {
+	font-size: 17.5px;
+   padding: 0px 0px 0px 10px;
+}
 .buttom__view {
 }
 .view {
@@ -1120,6 +1124,9 @@ p {
    margin: 0px 0px 30px 0px;
 }
 @media (max-width: 767px) {
+	.buttom_down {
+   font-size: 15px;
+}
    .navigation__body {
    }
    .navigation {
@@ -1194,4 +1201,12 @@ p {
    justify-content: flex-end;
 }
 .footer__logo img {
+}
+@media(max-width: 767px){
+	.black{
+	font-size: 14px ;
+	}	
+	.black_last{
+	font-size: 14px ;
+	}
 }
