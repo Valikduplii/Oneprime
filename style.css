@@ -582,8 +582,10 @@ Part 2
    padding: 0px 0px 0px 20px;
 }
 @media(max-width: 767px) {
+	.view__menu {
 	font-size: 17.5px;
    padding: 0px 0px 0px 10px;
+	}
 }
 .buttom__view {
 }
@@ -1125,7 +1127,7 @@ p {
 }
 @media (max-width: 767px) {
 	.buttom_down {
-   font-size: 15px;
+   font-size: 13px;
 }
    .navigation__body {
    }
