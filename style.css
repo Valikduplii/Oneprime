@@ -98,14 +98,17 @@ body {
 }
 .en{
    color: #000;
+	padding: 2px 0px 0px 0px;
 }
 .ru{
    text-decoration: none;
    color: #000;
+	    padding: 2px 0px 0px 0px;
 }
 .esp{
    text-decoration: none;
    color: #000;
+	    padding: 2px 0px 0px 0px;
 }
 .lagua{
    font-family: "Bebas";
@@ -582,7 +585,7 @@ Part 2
    font-family: "Bebas";
    height: 50px;
    text-align: center;
-   line-height: 50px;
+   line-height: 51px;
    width: 136.5px;
    background-color: #000;
    display: inline-block;
