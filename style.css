@@ -1,18 +1,18 @@
 @font-face {
    font-family: "AkzidenzGroteskBQCondensedBold";
-   src: url("../fonts/AkzidenzGroteskBQCondensedBold.eot");
-   src: url("../fonts/AkzidenzGroteskBQCondensedBold.eot#iefix") format("embedded-opentype"), url("MyriadPro-Regular.woff") format("woff"),
-      url("../fonts/AkzidenzGroteskBQCondensedBold.woff") format("woff"),
-      url("../fonts/AkzidenzGroteskBQCondensedBold.ttf") format("truetype");
+   src: url("fonts/AkzidenzGroteskBQCondensedBold.eot");
+   src: url("fonts/AkzidenzGroteskBQCondensedBold.eot#iefix") format("embedded-opentype"), url("MyriadPro-Regular.woff") format("woff"),
+      url("fonts/AkzidenzGroteskBQCondensedBold.woff") format("woff"),
+      url("fonts/AkzidenzGroteskBQCondensedBold.ttf") format("truetype");
    font-weight: normal;
    font-style: normal;
 }
 @font-face {
    font-family: "Bebas";
-   src: url("../fonts/BebasNeueRegular.eot");
-   src: url("../fonts/BebasNeueRegular.eot#iefix") format("embedded-opentype"), url("MyriadPro-Regular.woff") format("woff"),
-      url("../fonts/BebasNeueRegular.woff") format("woff"),
-      url("../fonts/BebasNeueRegular.ttf") format("truetype");
+   src: url("fonts/BebasNeueRegular.eot");
+   src: url("fonts/BebasNeueRegular.eot#iefix") format("embedded-opentype"), url("MyriadPro-Regular.woff") format("woff"),
+      url("fonts/BebasNeueRegular.woff") format("woff"),
+      url("fonts/BebasNeueRegular.ttf") format("truetype");
    font-weight: normal;
    font-style: normal;
 }
@@ -96,6 +96,17 @@ body {
    position: relative;
 
 }
+.en{
+   color: #000;
+}
+.ru{
+   text-decoration: none;
+   color: #000;
+}
+.esp{
+   text-decoration: none;
+   color: #000;
+}
 .lagua{
    font-family: "Bebas";
    display: flex;
@@ -118,6 +129,11 @@ body {
    text-align: right;
    font-size: 15px;
    font-family: "AkzidenzGroteskBQCondensedBold";
+   color: #000;
+   text-decoration: none;
+}
+.online__odering u{
+   color: #000;
 }
 .header-top {
    display: flex;
@@ -558,18 +574,22 @@ Part 2
 .catering__text {
    font-size: 15px;
    display: flex;
-   flex: 1 1 auto;
+
    padding: 0px 0px 60px 0px;
 }
 .buttom {
    display: inline-block;
    font-family: "Bebas";
-   font-size: 20px;
-   width: 155px;
    height: 50px;
-   padding: 17px 30px;
    text-align: center;
-   margin: 0px 10px 0px 0px;
+   line-height: 50px;
+   width: 136.5px;
+   background-color: #000;
+   display: inline-block;
+   font-size: 15px;
+   text-transform: uppercase;
+   color: #fff;
+   letter-spacing: 1.25px;
 }
 .white {
    color: #000;
@@ -577,10 +597,12 @@ Part 2
 }
 .view__menu {
    font-family: "Bebas";
+   text-transform: uppercase;
    color: #fff;
-   text-decoration: none;
-   flex-wrap: nowrap;
-   padding: 0px 0px 0px 20px;
+   font-size: 15px;
+   text-decoration: underline;
+   margin: 0px 0px 0px 15px;
+   letter-spacing: 1.5px;
 }
 @media(max-width: 767px) {
 	.view__menu {
@@ -588,8 +610,23 @@ Part 2
    padding: 0px 0px 0px 10px;
 	}
 }
+@media(max-width:319px){
+   .buttom__view{
+      display: flex;
+      flex-direction: column;
+   }
+   .view__menu{
+      padding: 0;
+      margin: 30px 0px 0px 0px;
+   }
+}
+.buttom__text{
+   color: #fff;
+}
+
 .buttom__view {
 }
+
 .view {
 }
 
@@ -658,8 +695,9 @@ p {
    font-family: "Bebas";
    margin: 0px 20px 0px 0px;
 }
-.black_view {
+.black_view a {
    margin: 0px 20px 0px 0px;
+   color: #000;
 }
 
 .cards {
@@ -679,6 +717,7 @@ p {
 }
 .cards__item {
    flex: 1 1 25%;
+   height: 100%;
    display: -webkit-box;
    display: -moz-box;
    display: -ms-flexbox;
@@ -689,7 +728,11 @@ p {
    -ms-flex-direction: column;
    flex-direction: column;
 }
-@media (max-width: 767px) {
+@media (max-width: 767.98px) {
+
+
+}
+@media(max-width:790px){
    .cards__column {
       display: flex;
       flex-wrap: nowrap;
@@ -741,14 +784,17 @@ p {
    font-size: 25px;
    text-transform: uppercase;
    max-width: 150px;
+   letter-spacing: 1.5px;
    margin: 0px 0px 30px 0px;
 }
 .item__text {
    -webkit-box-flex: 1;
    -ms-flex: 1 1 auto;
    flex: 1 1 auto;
+   padding: 0px 10px 0px 0px;
+   max-width: 185px;
    font-size: 15px;
-   max-width: 180px;
+   line-height: 25px;
    margin: 0px 0px 25px 0px;
 }
 .cards__body {
@@ -967,7 +1013,7 @@ p {
 
 }
 .hello-body-image-1 {
-   background: url("../img/contacts/01.svg") left no-repeat;
+
 }
 .hello-body-image-2 {
    background: url("../img/contacts/02.svg") left no-repeat;
@@ -990,7 +1036,6 @@ p {
    flex-wrap: wrap;
 }
 .text__first {
-   padding: 0px 0px 0px 35px;
    display: inline-block;
    line-height: 27px;
 }
@@ -1120,6 +1165,7 @@ p {
    padding: 18px 29px;
    text-align: center;
    margin: 30px 0px 0px 0px;
+
    font-family: "Bebas";
 }
 
@@ -1128,7 +1174,8 @@ p {
 }
 @media (max-width: 767px) {
 	.buttom_down {
-   font-size: 13px;
+   font-size: 15px;
+   word-spacing: 5px;
 }
    .navigation__body {
    }
@@ -1168,6 +1215,7 @@ p {
 .p__form {
 }
 .black {
+
 }
 
 .footer {
@@ -1184,6 +1232,7 @@ p {
       padding: 15px;
    }
 }
+
 .footer__text {
    font-family: Arial, Helvetica, sans-serif;
    text-decoration: #4d4d4d;
@@ -1213,6 +1262,12 @@ p {
 	font-size: 14px ;
 	}
 	.white{
-	font-size: 13px ;
+	font-size: 16px ;
 	}
+}
+@media(max-width: 279px){
+   .footer__body {
+      padding: 15px;
+      margin: 0px 0px 12px 0px;
+   }
 }
